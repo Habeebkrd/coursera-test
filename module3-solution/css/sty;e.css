@@ -1,0 +1,76 @@
+.bg-1{
+    background-color: #999999;
+    margin: 10px auto;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.navbar{
+    background-color: #999999;
+}
+.navbar-default .navbar-brand{
+    color: #000000;
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle{
+    border: 1px solid black;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #000;
+}
+li{
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+/********** large devices only **********/
+@media (min-width: 1200px)  {
+    .col-lg-12{
+        width: 100%;
+    }
+   
+    ul{
+        display: none;
+    }
+    
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width:1199px)  {
+    .col-md-12{
+        width: 100%;
+    }
+    ul{
+        display: none;
+    }
+  }
+/********** small devices only **********/
+  @media (min-width:768px) and (max-width:991px){
+   
+    .col-sm-12 {
+        width: 100%;
+      }
+      .col-sm-11 {
+        width: 91.66666667%;
+      }
+
+    ul{
+        display: none;
+    }  
+    
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width:767px){
+    
+    .col-xs-12 {
+        width: 100%;
+      }
+      
+    
+}
